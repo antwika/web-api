@@ -5,16 +5,32 @@
     "https://linkedsoftwaredependencies.org/bundles/npm/@antwika/app/*/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@antwika/common/*/components/context.jsonld",
     "https://linkedsoftwaredependencies.org/bundles/npm/@antwika/http/*/components/context.jsonld",
-    "https://linkedsoftwaredependencies.org/bundles/npm/@antwika/prometheus/*/components/context.jsonld"
+    "https://linkedsoftwaredependencies.org/bundles/npm/@antwika/prometheus/*/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@antwika/swagger/*/components/context.jsonld"
   ],
   "import": [
-    "./routes/health/health.jsonld"
+    "./routes/health/health.jsonld",
+    "./routes/api-docs/api-docs.jsonld"
   ],
   "@graph": [
     {
       "@id": "urn:antwika:app:args",
       "@type": "AppArguments",
       "args": [
+        {
+          "@type": "AppArgument",
+          "shortName": "x",
+          "longName": "protocol",
+          "description": "The application protocol",
+          "value": "http"
+        },
+        {
+          "@type": "AppArgument",
+          "shortName": "h",
+          "longName": "host",
+          "description": "The application hostname",
+          "value": "localhost"
+        },
         {
           "@type": "AppArgument",
           "shortName": "p",
@@ -44,7 +60,7 @@
               "endpoint": {
                 "@type": "TextEndpoint",
                 "code": 200,
-                "text": "Welcome to Antwika.com"
+                "text": "Antwika Web Api"
               }
             },
             {
@@ -56,6 +72,7 @@
               }
             },
             { "@id": "urn:antwika:web-api:routes:health" },
+            { "@id": "urn:antwika:web-api:routes:api-docs" },
             {
               "@type": "TextEndpoint",
               "code": 404,

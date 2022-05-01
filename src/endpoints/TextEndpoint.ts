@@ -16,7 +16,7 @@ export class TextEndpoint implements IHttpHandler {
 
   async handle(handlable: IHttpHandlable) {
     const res = handlable.res();
-    res.writeHead(this.code);
+    res.writeHead(this.code, { 'Content-Type': 'text/plain' });
     res.end(this.text);
   }
 }

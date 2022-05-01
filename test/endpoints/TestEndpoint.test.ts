@@ -13,7 +13,7 @@ describe('TestEndpoint', () => {
 
     await expect(textEndpoint.canHandle(handlable)).resolves.toBeTruthy();
     await textEndpoint.handle(handlable);
-    expect(res.writeHead).toHaveBeenCalledWith(200);
+    expect(res.writeHead).toHaveBeenCalledWith(200, { 'Content-Type': 'text/plain' });
     expect(res.end).toHaveBeenCalledWith('OK');
   });
 });
