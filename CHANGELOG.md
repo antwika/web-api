@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/antwika/web-api/compare/v0.0.2...v0.0.3) (2022-05-01)
+
+
+### Bug Fixes
+
+* set distinct configurations for swagger ([a5760f6](https://github.com/antwika/web-api/commit/a5760f6bf352f2ccd246d1996eabf9c43f52f51f))
+
 ### [0.0.2](https://github.com/antwika/web-api/compare/v0.0.1...v0.0.2) (2022-05-01)
 
 
