@@ -37,6 +37,27 @@
           "longName": "port",
           "description": "Port description",
           "value": "3000"
+        },
+        {
+          "@type": "AppArgument",
+          "shortName": "sx",
+          "longName": "swaggerProtocol",
+          "description": "The application protocol",
+          "value": "http"
+        },
+        {
+          "@type": "AppArgument",
+          "shortName": "sh",
+          "longName": "swaggerHost",
+          "description": "The application hostname",
+          "value": "localhost"
+        },
+        {
+          "@type": "AppArgument",
+          "shortName": "sp",
+          "longName": "swaggerPort",
+          "description": "Port description",
+          "value": "3000"
         }
       ]
     },
