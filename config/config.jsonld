@@ -77,7 +77,7 @@
           "httpHandlers": [
             {
               "@type": "HttpRoute",
-              "path": "/",
+              "paths": ["/"],
               "endpoint": {
                 "@type": "TextEndpoint",
                 "code": 200,
@@ -86,7 +86,7 @@
             },
             {
               "@type": "HttpRoute",
-              "path": "/metrics",
+              "paths": ["/metrics"],
               "endpoint": {
                 "@type": "PrometheusHttpHandler",
                 "args_appLabel": "@antwika/web-api"

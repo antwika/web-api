@@ -11,7 +11,7 @@
     {
       "@id": "urn:antwika:web-api:routes:health",
       "@type": "HttpRoute",
-      "path": "/health",
+      "paths": ["/health"],
       "endpoint": {
         "@type": "TextEndpoint",
         "code": 200,

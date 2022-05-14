@@ -11,11 +11,11 @@
     {
       "@id": "urn:antwika:web-api:routes:api-docs",
       "@type": "HttpRoute",
-      "path": "/api-docs",
+      "paths": ["/api-docs"],
       "routes": [
         {
           "@type": "HttpRoute",
-          "path": "/swagger.json",
+          "paths": ["/swagger.json"],
           "endpoint": {
             "@type": "OpenApiJsonEndpoint",
             "appArguments": { "@id": "urn:antwika:app:args" },
