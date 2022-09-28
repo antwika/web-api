@@ -45,7 +45,7 @@
   "dependencies": {
     "@antwika/app": "0.0.24",
     "@antwika/common": "0.0.28",
-    "@antwika/http": "0.0.26",
+    "@antwika/http": "0.0.27",
     "@antwika/prometheus": "^0.0.18",
     "@antwika/swagger": "0.0.20",
     "componentsjs": "^5.0.1"
