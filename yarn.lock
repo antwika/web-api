@@ -45,6 +45,14 @@
     "@antwika/app" "0.0.53"
     "@antwika/common" "0.0.57"
 
+"@antwika/http@0.0.57":
+  version "0.0.57"
+  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.57.tgz#dd03f069902ac5e78f26866292ed4663aba3a3d8"
+  integrity sha512-JMgFQdOyPw2TmUY4B9G0Aij++QzOV+4kT/b2wRlZF1L1rUFY94o4uCMkLEqmdyZYtltPv+dkdePUPfnHj4qGEA==
+  dependencies:
+    "@antwika/app" "0.0.54"
+    "@antwika/common" "0.0.58"
+
 "@antwika/prometheus@^0.0.48":
   version "0.0.48"
   resolved "https://registry.yarnpkg.com/@antwika/prometheus/-/prometheus-0.0.48.tgz#515ca5e8e4a3a60ea18889966279a3f8b05c2f1b"
