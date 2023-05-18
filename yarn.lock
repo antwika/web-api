@@ -9,16 +9,7 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@antwika/app@0.0.56", "@antwika/app@^0.0.56":
-  version "0.0.56"
-  resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.56.tgz#c0a5cf709471b16135f97afe3e9eb95313f1e5ff"
-  integrity sha512-z7WqiblEEAMq4d37JSAeNIgFBuum7tUogv7buAQ+LxLgOd0pjtdFzqrnDUYYY9Hzyr4QP52qFOvieKe4795ECQ==
-  dependencies:
-    "@antwika/common" "0.0.60"
-    componentsjs "^5.0.1"
-    yargs "^17.4.1"
-
-"@antwika/app@0.0.57":
+"@antwika/app@0.0.57", "@antwika/app@^0.0.57":
   version "0.0.57"
   resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.57.tgz#d37c2f4d31a89b5e3d6d1780b0172fa73d19e2c1"
   integrity sha512-Z2ufBNzzN+YN5CMkpef6Gn/riCtlUAmhpsbWh1/yucP7De8rk4frFtj3sBt1G0D+UpWK9+Si6xoM4ziZXwOpnA==
@@ -27,23 +18,10 @@
     componentsjs "^5.0.1"
     yargs "^17.4.1"
 
-"@antwika/common@0.0.60":
-  version "0.0.60"
-  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.60.tgz#c01a57ba8c1f8005064c1573283b42f54ee692c0"
-  integrity sha512-UEARRpsx3aTJbaCobtU9LLLVkbqj4WYhFGbUbDhS5GqSskyGN/2piOkGKNulWVaY2XrQg2fE2g9O5LXFSLehpg==
-
 "@antwika/common@0.0.61":
   version "0.0.61"
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.61.tgz#6418ba3379c7a03f565014ee1b0e4de3f226d458"
   integrity sha512-awVG4XiAdAhkaL/MA85NLHCKIZfG729SU9Xv0Q6BBjAtnb+rFO20tcTxcNKKApcKGeszqYGEmkQJhHrRoHYUVQ==
-
-"@antwika/http@0.0.59":
-  version "0.0.59"
-  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.59.tgz#6fec9561bfac5c885aad1c3ebf09867bb0133cec"
-  integrity sha512-VDGn9Aw/2HYRmUVOdMXwKVE45sJ9QoIaQFoK47m9gkTub9/ULkf9VRet1MUkbhGbRIk17rtH6CGlUSZV0shkiA==
-  dependencies:
-    "@antwika/app" "0.0.56"
-    "@antwika/common" "0.0.60"
 
 "@antwika/http@0.0.60":
   version "0.0.60"
@@ -78,13 +56,13 @@
     semver "^7.1.1"
     yargs "^17.0.0"
 
-"@antwika/swagger@0.0.53":
-  version "0.0.53"
-  resolved "https://registry.yarnpkg.com/@antwika/swagger/-/swagger-0.0.53.tgz#d8f90b624a6475cca623a210760380d3b50c78ae"
-  integrity sha512-d7E5ws6fAKuEXfWRoQSaay+Wq43Nl0miHuy7fAVydNBPPSt1XEfZFDFDBHjrBxJhLpjIU03HAmLP2IccVms81A==
+"@antwika/swagger@0.0.54":
+  version "0.0.54"
+  resolved "https://registry.yarnpkg.com/@antwika/swagger/-/swagger-0.0.54.tgz#0ffa8de9f6efaa4b03fa85362c46fbb9810bc7a6"
+  integrity sha512-Mb7iD2mqTgnKb7GZFNmnFI3rChQFTpjEJ54r11QDmsCWIH+iRRPE9q4i/VeK7G3PAU0BBFksGPdeOS+wsNOTsA==
   dependencies:
-    "@antwika/app" "^0.0.56"
-    "@antwika/http" "0.0.59"
+    "@antwika/app" "^0.0.57"
+    "@antwika/http" "0.0.60"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7":
   version "7.16.7"
