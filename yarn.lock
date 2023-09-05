@@ -23,6 +23,15 @@
     componentsjs "^5.0.1"
     yargs "^17.4.1"
 
+"@antwika/app@0.0.73":
+  version "0.0.73"
+  resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.73.tgz#b9674649905333b9a9201c69a11cdb9b609f42e6"
+  integrity sha512-0rjSdnKlnQZHI9lpFio8BcqDCf0ju0++V0o5cHeF+hm17KJJ09bryxrSbsqZQnwO7CaIhoi/qw3NkubqfTJa3w==
+  dependencies:
+    "@antwika/common" "0.0.77"
+    componentsjs "^5.0.1"
+    yargs "^17.4.1"
+
 "@antwika/common@0.0.76":
   version "0.0.76"
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.76.tgz#ba6d866838bf05e2ff673c1678239fed37b4f380"
