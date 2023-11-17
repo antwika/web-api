@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.80](https://github.com/antwika/web-api/compare/v0.0.79...v0.0.80) (2023-11-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @antwika/app to v0.0.83 ([9a50887](https://github.com/antwika/web-api/commit/9a50887362ed37ed0e325a6c324d41368e62dddf))
+* **deps:** update dependency @antwika/common to v0.0.87 ([4ae5217](https://github.com/antwika/web-api/commit/4ae52173f2258da99d01ec26b2c8fdf876ffca7d))
+* **deps:** update dependency @antwika/http to v0.0.86 ([84e1c1c](https://github.com/antwika/web-api/commit/84e1c1c8c0fa0965ff3e172a92d14770f22c6635))
+* **deps:** update dependency @antwika/prometheus to ^0.0.78 ([b3473dd](https://github.com/antwika/web-api/commit/b3473dd808534df9fdff3af3e3e1a6c5aa76ca10))
+* **deps:** update dependency @antwika/swagger to v0.0.80 ([2b515ff](https://github.com/antwika/web-api/commit/2b515ff1484e1c90a05b04bba53f21efb99855de))
+
 ## [0.0.79](https://github.com/antwika/web-api/compare/v0.0.78...v0.0.79) (2023-11-10)
 
 
