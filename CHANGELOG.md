@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.123](https://github.com/antwika/web-api/compare/v0.0.122...v0.0.123) (2024-09-20)
+
+
+### Bug Fixes
+
+* **deps:** update dependency componentsjs to v6.1.0 ([12416aa](https://github.com/antwika/web-api/commit/12416aaa6e81b9db4d505e0de53996fd39f2748d))
+
 ## [0.0.122](https://github.com/antwika/web-api/compare/v0.0.121...v0.0.122) (2024-09-13)
 
 ## [0.0.121](https://github.com/antwika/web-api/compare/v0.0.120...v0.0.121) (2024-09-06)
