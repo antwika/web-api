@@ -1103,9 +1103,9 @@
   integrity sha512-OWlrQAnWn9577PhVgqjUvMr1pg57Bc4jv0iL4w0PRuOSRvq67rvHW9Ie/dZVMvCzhSCB+UxhcY/PmCmFj33Q+g==
 
 "@rdfjs/types@*", "@rdfjs/types@>=1.0.0", "@rdfjs/types@^1.1.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@rdfjs/types/-/types-1.1.1.tgz#f798f70d4778af98f0aad2c56ee6258eaf9b9edf"
-  integrity sha512-zFSU1BDXGnyROZw4HoQ/UAZxCM9r86QXJCQI2Kre7XbxQ2Rbd1oBIHnkVeYkvg0kGwtQUQKJpFeAxk7J8/YrOQ==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@rdfjs/types/-/types-1.1.2.tgz#9c2f9848c44c26d383bed2a808571de3b93b808d"
+  integrity sha512-wqpOJK1QCbmsGNtyzYnojPU8gRDPid2JO0Q0kMtb4j65xhCK880cnKAfEOwC+dX85VJcCByQx5zOwyyfCjDJsg==
   dependencies:
     "@types/node" "*"
 
@@ -1243,9 +1243,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/node@*":
-  version "22.5.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.5.5.tgz#52f939dd0f65fc552a4ad0b392f3c466cc5d7a44"
-  integrity sha512-Xjs4y5UPO/CLdzpgR6GirZJx36yScjh73+2NlLlkFRSoQN8B0DpfXPdZGnvVmLRLOsqDpOfTNv7D9trgGhmOIA==
+  version "22.7.3"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.7.3.tgz#7ddf1ddf13078692b4cfadb835852b2a718ee1ef"
+  integrity sha512-qXKfhXXqGTyBskvWEzJZPUxSslAiLaB6JGP1ic/XTH9ctGgzdgYguuLP1C601aRTSDNlLb0jbKqXjZ48GNraSA==
   dependencies:
     undici-types "~6.19.2"
 
@@ -1257,9 +1257,9 @@
     undici-types "~6.19.2"
 
 "@types/node@^18.0.0":
-  version "18.19.50"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.50.tgz#8652b34ee7c0e7e2004b3f08192281808d41bf5a"
-  integrity sha512-xonK+NRrMBRtkL1hVCc3G+uXtjh1Al4opBLjqVmipe5ZAaBYWW6cNAiBVZ1BvmkBhep698rP3UM3aRAdSALuhg==
+  version "18.19.53"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.53.tgz#1e2f83eeede6031f03bc4780826b8b02b42ac50d"
+  integrity sha512-GLxgUgHhDKO1Edw9Q0lvMbiO/IQXJwJlMaqxSGBXMpPy8uhkCs2iiPFaB2Q/gmobnFkckD3rqTBMVjXdwq+nKg==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2051,27 +2051,7 @@ componentsjs@^5.0.1:
     semver "^7.3.2"
     winston "^3.3.3"
 
-componentsjs@^6.0.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/componentsjs/-/componentsjs-6.1.0.tgz#dc70ba75eb482509e829bce29cfca15d93dbd69e"
-  integrity sha512-u5UFuX6vXw6ZQcn8bYfpUlUzIP2iAUpGnL8+ggLgVtS4GgRNrAJVulsWH+PGKRurv4fYwIPQzgFS8irn1cwhVg==
-  dependencies:
-    "@rdfjs/types" "*"
-    "@types/minimist" "^1.2.0"
-    "@types/node" "^18.0.0"
-    "@types/semver" "^7.3.4"
-    jsonld-context-parser "^2.1.1"
-    minimist "^1.2.0"
-    rdf-data-factory "^1.1.0"
-    rdf-object "^1.14.0"
-    rdf-parse "^2.0.0"
-    rdf-quad "^1.5.0"
-    rdf-string "^1.6.0"
-    rdf-terms "^1.7.0"
-    semver "^7.3.2"
-    winston "^3.3.3"
-
-componentsjs@^6.2.0:
+componentsjs@^6.0.0, componentsjs@^6.2.0:
   version "6.2.0"
   resolved "https://registry.yarnpkg.com/componentsjs/-/componentsjs-6.2.0.tgz#1547534b28af4661b8be9408e7a0450ec409aa6e"
   integrity sha512-ieFKJNMduBYJSr48CzedDbM1Ao8lqFAf0m4z4I7x4XWqi5aW71CcLFSD7YkfNIiXVuL0L0gzx89wOXvvWFBJ7w==
@@ -4778,9 +4758,9 @@ ms@^2.1.1:
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
 n3@^1.16.3, n3@^1.17.0:
-  version "1.21.3"
-  resolved "https://registry.yarnpkg.com/n3/-/n3-1.21.3.tgz#19ead2a899c464cc1b963b6afbf18421b4319ad7"
-  integrity sha512-wF691tKoKS8lmKWChBWbO2WSmmv6/LUA1DHp7ZtM6fYlCGmO4FM0eiOnESlYOgkW6xLQZYafuZjoLeI4ADtr5Q==
+  version "1.22.1"
+  resolved "https://registry.yarnpkg.com/n3/-/n3-1.22.1.tgz#85eea249d70e602657701c4a74027f4daccc8819"
+  integrity sha512-j33b1baVTC6K9HjOaTiJkT/7xykf2r86MN3xyZlUlF3Xs4m8OqVAm+6uzdTE3PmDLzpefyRlI2YsboaFT+DN4g==
   dependencies:
     buffer "^6.0.3"
     queue-microtask "^1.1.2"
@@ -6264,9 +6244,9 @@ undici-types@~5.26.4:
   integrity sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==
 
 undici-types@~6.19.2:
-  version "6.19.6"
-  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.6.tgz#e218c3df0987f4c0e0008ca00d6b6472d9b89b36"
-  integrity sha512-e/vggGopEfTKSvj4ihnOLTsqhrKRN3LeO6qSN/GxohhuRv8qH9bNQ4B8W7e/vFL+0XTnmHPB4/kegunZGA4Org==
+  version "6.19.8"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
+  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
 uri-js@^4.2.2:
   version "4.4.1"
